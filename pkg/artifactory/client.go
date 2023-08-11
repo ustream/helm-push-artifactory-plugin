@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/belitre/helm-push-artifactory-plugin/pkg/tlsutil"
+	"github.com/ustream/helm-push-artifactory-plugin/pkg/tlsutil"
 )
 
 type (
@@ -52,7 +52,7 @@ func NewClient(opts ...Option) (Client, error) {
 	return &c, nil
 }
 
-//Create transport with TLS config
+// Create transport with TLS config
 func newTransport(certFile, keyFile, caFile string, insecureSkipVerify bool) (*http.Transport, error) {
 	transport := &http.Transport{}
 

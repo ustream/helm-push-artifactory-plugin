@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/belitre/helm-push-artifactory-plugin/pkg/artifactory"
-	"github.com/belitre/helm-push-artifactory-plugin/pkg/helm"
-	helmrepo "github.com/belitre/helm-push-artifactory-plugin/pkg/repo"
-	"github.com/belitre/helm-push-artifactory-plugin/pkg/version"
 	"github.com/spf13/cobra"
+	"github.com/ustream/helm-push-artifactory-plugin/pkg/artifactory"
+	"github.com/ustream/helm-push-artifactory-plugin/pkg/helm"
+	helmrepo "github.com/ustream/helm-push-artifactory-plugin/pkg/repo"
+	"github.com/ustream/helm-push-artifactory-plugin/pkg/version"
 )
 
 type (
